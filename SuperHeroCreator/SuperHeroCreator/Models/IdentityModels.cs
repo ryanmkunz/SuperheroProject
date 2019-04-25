@@ -20,7 +20,7 @@ namespace SuperHeroCreator.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public DbSet<Superheros> SuperHeroes { get; set; }
+        public DbSet<Superhero> SuperHeroes { get; set; }
 
 
         public ApplicationDbContext()
